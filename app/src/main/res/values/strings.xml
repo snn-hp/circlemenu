@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">circlemenu</string>
+    <string-array name="appraisal_status">
+        <item>已鉴定</item>
+        <item>待鉴定</item>
+        <item>已拒绝</item>
+        <item>过期</item>
+        <item>好评</item>
+    </string-array>
+</resources>

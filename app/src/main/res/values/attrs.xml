@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PolygonMenu">
+        <attr name="firstR" format="dimension"/>
+        <attr name="textSize" format="dimension"/>
+        <attr name="textColor" format="color"/>
+        <attr name="lineColor" format="color"/>
+        <attr name="rectColor" format="color"/>
+        <attr name="unitR" format="dimension"/>
+        <attr name="attrs" format="string"/>
+        <attr name="datas" format="string"/>
+        <attr name="big_radius" format="dimension"/>
+    </declare-styleable>
+</resources>

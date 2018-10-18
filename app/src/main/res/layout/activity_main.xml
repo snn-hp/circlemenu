@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:PolygonMenu="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shanhukeji.circlemenu.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <com.custom.view.PolygonMenu
+            android:id="@+id/polygon_menu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            PolygonMenu:attrs=""
+            PolygonMenu:big_radius="@dimen/big_radius"
+            PolygonMenu:datas="3,2,1,0,3"
+            PolygonMenu:firstR="@dimen/firstR"
+            PolygonMenu:lineColor="@color/lineColor"
+            PolygonMenu:rectColor="@color/rectColor"
+            PolygonMenu:textColor="@color/text_color_white"
+            PolygonMenu:textSize="@dimen/text_size_15"
+            PolygonMenu:unitR="@dimen/unitR" />
+
+        <LinearLayout
+            android:layout_width="@dimen/center_circle"
+            android:layout_height="@dimen/center_circle"
+            android:background="@drawable/white_circle_bg"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="1000"
+                android:textColor="#000000" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="1000"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</RelativeLayout>
